@@ -37,7 +37,7 @@ const Navbar = ({ onNavigate, currentSection }) => {
               {activeDropdown === 'particuliers' && (
                 <div className="absolute top-full left-0 mt-2 w-56 !bg-white rounded-xl shadow-xl py-2 !border !border-gray-100 flex flex-col animate-fade-in">
                   {['Auto', 'Habitation', 'Santé', 'Prévoyance'].map(key => (
-                    <button key={key} className="text-left px-6 py-2 hover:!bg-orange-50 hover:text-orange-600 text-sm text-slate-700 transition-colors">
+                    <button key={key} className="!bg-slate-100 text-left px-6 py-2 hover:!bg-orange-50 hover:text-orange-600 text-sm text-slate-700 transition-colors">
                       Assurance {key}
                     </button>
                   ))}
@@ -50,7 +50,7 @@ const Navbar = ({ onNavigate, currentSection }) => {
               {activeDropdown === 'pro' && (
                 <div className="absolute top-full left-0 mt-2 w-56 !bg-white rounded-xl shadow-xl py-2 !border !border-gray-100 flex flex-col animate-fade-in">
                   {['RC Pro', 'Décennale', 'Flotte', 'Multirisque'].map(key => (
-                    <button key={key} className="text-left px-6 py-2 hover:!bg-orange-50 hover:text-orange-600 text-sm text-slate-700 transition-colors">
+                    <button key={key} className="!bg-slate-100 text-left px-6 py-2 hover:!bg-orange-50 hover:text-orange-600 text-sm text-slate-700 transition-colors">
                       {key}
                     </button>
                   ))}
