@@ -6,7 +6,7 @@ const HeroSection = ({ onNavigate }) => {
     <section className="relative w-full !bg-slate-550 text-white py-20 md:py-32 overflow-hidden">
       <div
         className="absolute inset-0 z-0 opacity-40 !bg-cover !bg-center !bg-no-repeat"
-        style={{ backgroundImage: "url('BannerBG.png')" }}
+        style={{ backgroundImage: "url('${import.meta.env.BASE_URL}BannerBG.png')" }}
       ></div>
       <div className="absolute inset-0 z-0 !bg-gradient-to-r from-slate-600 via-slate-550/90 to-transparent"></div>
 
